@@ -1,0 +1,71 @@
+/* Modern Aesthetic Dark Products (Matching Homepage) */
+.products {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #1e1e1e, #121212); /* Dark gradient background matching homepage */
+  min-height: 100vh;
+  color: #e0e0e0; /* Light text for dark background */
+}
+
+.products h1 {
+  color: #bbdefb; /* Light accent color matching homepage headings */
+  margin-bottom: 35px;
+  font-size: 32px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 35px; /* Increased gap */
+  max-width: 1200px; /* Added max-width to center on large screens */
+  margin: 0 auto; /* Center the product list */
+}
+
+.product {
+  background: #212121; /* Darker card background */
+  padding: 30px; /* Increased padding */
+  border-radius: 15px; /* More rounded corners */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4); /* Stronger shadow */
+  text-align: center;
+  width: 300px; /* Increased width */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.product:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px; /* More rounded corners */
+  margin-bottom: 25px;
+}
+
+.product button {
+  background: #64b5f6; /* Accent color matching homepage buttons */
+  color: #121212; /* Dark text on button */
+  border: none;
+  padding: 14px 20px; /* Larger button padding */
+  cursor: pointer;
+  border-radius: 8px; /* Rounded button corners */
+  margin-top: 20px; /* Increased margin */
+  font-size: 17px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.product button:hover {
+  background: #42a5f5; /* Lighter accent on hover */
+}
+
+.product h3 {
+  color: #bbdefb; /* Light accent color matching product names */
+  font-size: 1.2em; /* slightly larger font */
+  margin-bottom: 10px;
+}
+
+.product p {
+  color: #bdbdbd; /* Light gray text for product details */
+  margin-bottom: 15px;
+}
